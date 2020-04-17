@@ -1,0 +1,18 @@
+<poster id="poster"  preload="{{false}}" config="{{posterConfig}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">
+</poster>
+<view class="container" hidden="{{!success}}">
+  <view class="box">
+    <image class="poster" src="{{src}}" mode="widthFix"></image>
+    <view class="ctrl">
+      <view class="btn gs" bindtap="gaishan">专属改善计划</view>
+      <view class="f">
+       <button bindtap="save" class="btn">保存到手机</button>
+       <button bindtap="navigateToMiniProgram" class="btn">电商购买</button>
+      </view>
+     
+      
+      <!-- <view class="btn" bindtap="repaly">再次测试</view> -->
+    </view>
+  </view>
+	
+</view>

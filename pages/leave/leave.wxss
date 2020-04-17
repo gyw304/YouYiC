@@ -1,0 +1,16 @@
+.leavebox{
+  display:flex;
+  margin:30rpx;
+}
+
+textarea{
+  background-color: #fff;
+  padding:20rpx;
+  font-size:30rpx;
+  flex:1;
+  border-radius: 10rpx
+}
+
+button{
+  margin:30rpx;
+}

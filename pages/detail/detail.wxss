@@ -1,0 +1,127 @@
+page{
+  background-image: none
+}
+.container{
+  padding:30rpx;
+  background-color: #ffffff
+}
+
+.article-title{
+  font-size:46rpx;
+  padding-top:10rpx;
+}
+
+.content-picture{
+  max-width: 100%;
+  
+  display: block;
+}
+
+.article{
+  padding-top:70rpx;
+  line-height: 60rpx;
+  color:#595757;
+  font-size:34rpx
+}
+
+.article-anchor{
+  color:#898989
+}
+
+.article-info{
+  display: flex;
+  justify-content: space-between;
+  color:#adadad;
+  font-size:30rpx;
+  height:100rpx;
+  align-items: center;
+}
+
+.ico_dz{
+  width:32rpx;
+  height:32rpx;
+  margin-right:10rpx;
+}
+
+.zan{
+  color:#4d607e
+}
+
+.leave{
+  
+  
+  color:#4d607e
+}
+
+.leave-btn{
+  text-align: center;
+  padding:50rpx 0 80rpx 0;
+  font-size:30rpx;
+}
+
+.leave_hd{
+  display: flex;
+  height:150rpx;
+  justify-content: space-between;
+  align-items: center;
+  font-size:30rpx
+}
+
+.leave_hd .tit{
+  color:#8d8d8d
+}
+
+.leave-list{
+  padding:0 30rpx 30rpx 30rpx;
+  
+}
+
+.leaves{
+  display: flex;
+  margin-bottom:50rpx;
+  align-items: flex-start
+}
+
+.leave-nickname{
+  color:#8d8d8d;
+  font-size:28rpx;
+  margin-bottom:8rpx
+}
+
+.leave-message{
+  color:#000;
+  font-size:30rpx;
+  width:580rpx;
+  word-wrap: break-word
+}
+
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  padding:30rpx
+}
+.collect-btn{
+  font-size:30rpx;
+  width:150rpx;
+  height:60rpx;
+  background-color:  #c73734;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx
+}
+
+.collect-over{
+  background-color: #898989;
+  color:#fff
+}
+
+
+.content-headImg{
+  width:65rpx;
+  height:65rpx;
+  margin-right:30rpx;
+  margin-top:7rpx
+}

@@ -1,0 +1,39 @@
+<view class="signed_page_total">
+
+
+    <view class="headImg_warp">
+     <!-- <image class="YOYIC" mode="widthFix" src="../../image/YOYIC.png"></image> -->
+      <view class="headImg_warp_img">
+          <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <image class="tb" mode="widthFix" src="../../image/tb.png"></image>
+    </view>
+
+
+    <view class="userNickName" style='color:#000;font-size:46rpx;margin-top:50rpx;'>
+      <open-data type="userNickName"></open-data>
+    </view>
+
+  <view class="singed_total_warp">
+    <view class="singed_day">
+        <text>{{qiandao_day}}</text>
+      </view>
+  </view>
+
+  <view class="signed_progress">
+    <progress percent="{{qiandao_day/14 * 100}}" active border-radius="15rpx" activeColor="#e6002d" backgroundColor="#fcff00" stroke-width="30rpx" />
+    <image class="bx1" mode="widthFix" src="../../image/baoxiang1.png"></image>
+  </view>
+
+
+  <image class="zs" mode="widthFix" src="../../image/zs_{{id}}.png"></image>
+  <image class="maidian" mode="widthFix" src="../../image/maidian.png"></image>
+
+  <view class="imim">
+      <view class="go_punch" bindtap="go_punch">继续打卡</view>
+      <image lazy-load="true" mode="widthFix" src="../../image/im.png"></image>
+    </view>
+
+
+
+</view>

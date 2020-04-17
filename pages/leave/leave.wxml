@@ -1,0 +1,10 @@
+
+
+  <view class="leavebox">
+    <textarea name="content" placeholder="说点什么吧。。。" bindinput='comment_val' />
+  </view>
+
+  <button  open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 提交留言 </button>
+
+
+

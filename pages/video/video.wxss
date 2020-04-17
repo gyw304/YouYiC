@@ -1,0 +1,77 @@
+/* pages/video/video.wxss */
+page{
+  /* background-color: #00aaff */
+}
+
+.content-list{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding-bottom:30rpx;
+ padding-top:30rpx;
+}
+
+.content{
+  width:600rpx;
+  background-color: #fff;
+  margin-bottom:50rpx;
+  border-radius:20rpx;
+  text-align: center;
+  padding:20rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   border:2px solid #e6002d;
+}
+
+
+
+.content-bd{
+ 
+ text-align: center;
+ padding-top:20rpx
+  
+}
+
+.content-title{
+  color:#000000;
+  font-size:30rpx;
+}
+
+.video{
+  width:600rpx;
+  height:350rpx;
+}
+
+.box{
+  border:1px solid #e6002d;
+  width:660rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.box .hd{
+  display: flex;
+  width:100%;
+}
+.box .hd view{
+  flex:1;
+  text-align: center;
+  background-color: #dedede;
+  height:80rpx;
+  box-sizing:border-box;
+  line-height: 80rpx;
+  margin-bottom:30rpx;
+  font-size:30rpx;
+}
+.box .hd view.active{
+  background-color: #fff;
+}
+
+.ft{
+  z-index: 99999
+}

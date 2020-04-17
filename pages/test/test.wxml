@@ -1,0 +1,13 @@
+<view class="container">
+  <image mode="widthFix" src="../../image/xiao_c.png" class="im"></image>
+  <view class="ctrl">
+      <navigator  class="btn start" url="/pages/test_detail/test_detail">开始测试</navigator>
+      <view class="two">
+        <view class="btn tt" bindtap="my">我的肠道健康档案</view>
+        <view class="btn tt" bindtap="gaishan">我的专属改善计划</view>
+      </view>
+  </view>
+</view>
+
+
+<image class="ft" mode="widthFix" src="../../image/ft.png"></image>

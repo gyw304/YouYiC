@@ -1,0 +1,24 @@
+<!-- <button bindtap="go_signed">去首页</button> -->
+<view class="container">
+
+  <view class="btns">
+    <view bindtap="rule">了解规则</view>
+    <view bindtap="go_signed">开始打卡</view>
+  </view>
+
+</view>
+
+<view class="pop" hidden="{{rule_pop}}">
+
+  <view class="rule">
+    <image lazy-load="true" mode="widthFix" src="../../image/rule_title.png" style='width:262rpx;margin-bottom:20rpx'></image>
+    <view class="content">
+      <scroll-view scroll-y style="width:100%;height:800rpx;">
+        <image lazy-load="true" mode="widthFix" src="https://zhiyan.zxhong.com/wxapp/yyc/resource/static/wx_rule.jpg?33328" style='width:650rpx;'></image>
+      </scroll-view>
+      
+    </view>
+    <image lazy-load="true" mode="widthFix" src="../../image/close_pop.png" class="pop_close" bindtap='close_pop'></image>
+  </view>
+
+</view>

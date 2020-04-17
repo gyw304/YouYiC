@@ -1,0 +1,27 @@
+<view class="container">
+
+  <image mode="widthFix" src="../../image/banner.png" class="banner"></image>
+
+
+  <view class="ques">
+  <image mode="widthFix" src="../../image/tip.png" class="tip"></image>
+    <checkbox-group bindchange="checkboxChange">
+      <label class="checkbox" wx:for="{{items}}">
+        <checkbox value="{{item.id}}" checked="{{item.checked}}">{{item.title}}</checkbox>
+      </label>
+    </checkbox-group>
+  </view>
+
+  <view class="ctrl">
+
+    
+
+    <image mode="widthFix" src="../../image/dot.png" class="dot"></image>
+    <button class="btn ok" open-type='getUserInfo' lang="zh_CN" bindgetuserinfo="onGotUserInfo">确认提交</button>
+  </view>
+
+
+
+</view>
+
+  <image class="ft" mode="widthFix" src="../../image/ft.png"></image>

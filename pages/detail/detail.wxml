@@ -1,0 +1,50 @@
+
+
+<view class="container">
+
+  <view class="article-title">{{detail.title}}</view>
+  <!-- <view class="article-anchor">{{detail.author}}</view> -->
+  
+  <view class="article">
+    <rich-text nodes="{{detail.html}}"></rich-text>
+  </view>
+
+  <view class="article-info">
+    <view>阅读 {{detail.view_num}}</view>
+    <view class="zan"  >
+    <image wx:if="{{detail.zan}}" class="ico_dz" src="../../image/dz_1.png"></image>
+    <image wx:else class="ico_dz" src="../../image/dz_0.png" data-cid="{{detail.id}}" bindtap="zan"></image>
+    <text>{{detail.zan_num}}</text>
+    </view>
+  </view>
+
+  <!-- <view class="flex-center">
+    <view class="collect-btn" bindtap="collect" data-collect="{{detail.id}},1" wx:if="{{!detail.collect}}">收藏</view>
+    <view class="collect-btn collect-over" bindtap="collect" data-collect="{{detail.id}},2" wx:else>取消收藏</view>
+  </view> -->
+
+</view>
+
+<view class="leave">
+  <view class="leave-btn" bindtap="gopage" data-cid="{{detail.id}}" wx:if="{{detail.comments.length <= 0}}">写留言</view>
+  <view wx:else class="leave-list">
+
+    <view class="leave_hd">
+      <view class="tit">留言</view>
+      <view bindtap="gopage" data-cid="{{detail.id}}">写留言</view>
+    </view>
+  
+    <view class="leaves" wx:for="{{detail.comments}}">
+      <image class="content-headImg" src="{{item.head_img}}"></image>
+      <view style="flex:1">
+        <view class="leave-nickname">{{item.nick_name}}</view>
+        <view class="leave-message">{{item.content}}</view>
+      </view>
+    </view>
+  
+  </view>
+</view>
+
+
+
+

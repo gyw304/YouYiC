@@ -1,0 +1,84 @@
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100%;
+}
+
+.ques{
+  border:5rpx solid #e6002d;
+  width:700rpx;
+  border-radius: 10rpx;
+  font-size:20rpx;
+  color:#231815;
+  background-color: #fff;
+  position: relative;
+}
+
+.tip{
+  position: absolute;
+  right:0;
+  top:-80rpx;
+  width:361rpx;
+}
+
+checkbox {
+  width: 340rpx;
+  padding:10rpx 0;
+  margin-left:10rpx;
+}
+
+/*checkbox 选项框大小  */
+checkbox .wx-checkbox-input {
+  width: 30rpx;
+  height: 30rpx;
+  border: 2px solid #FF525C
+}
+/*checkbox选中后样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #FF525C;
+}
+/*checkbox选中后图标样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.ctrl{
+  display: flex;
+  align-items: center;
+  margin-top:50rpx;
+}
+
+.btn{
+  background-color: #e6002d;
+  color:#fff;
+  border-bottom:2px solid #720016
+}
+.ok{
+  width:180rpx;
+  height:45rpx;
+  line-height: 45rpx;
+  border-radius: 50rpx;
+  font-size:31rpx;
+  text-align: center;
+}
+
+.dot{
+  width:250rpx;
+}
+
+.banner{
+  width:676rpx;
+  margin-bottom:120rpx;
+}

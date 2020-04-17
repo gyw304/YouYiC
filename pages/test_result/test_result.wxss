@@ -1,0 +1,70 @@
+.canvas_style{
+ width: 682rpx !important;
+  height: 943rpx  !important;
+  margin: 0 auto;
+  margin-top: 10rpx;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100%;
+}
+
+.btn{
+ background-color: #e6002d !important;
+  color:#fff;
+  border-bottom:2px solid #720016;
+ 
+  border-radius: 50rpx !important;
+  text-align: center;
+  line-height: 55rpx;
+  font-size:30rpx;
+  margin-top:10rpx;
+}
+
+.savebtn-style{
+  
+}
+
+.poster{
+  width:682rpx
+}
+
+.box{
+  position: relative;
+}
+
+.ctrl{
+  width:330rpx;
+  height:200rpx;
+  position: absolute;
+  bottom:55rpx;
+  left:40rpx;
+  background-color: #fff;
+}
+
+.f{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+.f .btn{
+  width:150rpx !important;
+  height:55rpx !important;
+  line-height: 55rpx !important;
+  font-size:24rpx;
+  padding:0 !important;
+}
+
+.gs{
+  width:330rpx;
+  height:80rpx;
+  line-height: 80rpx !important;
+  font-size:40rpx;
+  border-radius: 30rpx !important;
+  margin-bottom:20rpx;
+}
